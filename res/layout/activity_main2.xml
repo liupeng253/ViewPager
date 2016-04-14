@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:hyman="http://schemas.android.com/apk/res/com.liupeng.viewpager"
+    android:orientation="vertical" >
+
+    <com.liupeng.view.ViewPagerIndicator 
+        android:id="@+id/id_indcator"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/back"
+        hyman:visible_tab_count="4"
+        >
+
+        
+    </com.liupeng.view.ViewPagerIndicator>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#00f"
+        >
+
+        
+        
+    </android.support.v4.view.ViewPager>
+
+
+
+</LinearLayout>
